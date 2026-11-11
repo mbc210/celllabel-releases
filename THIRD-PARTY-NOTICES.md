@@ -1,6 +1,6 @@
 # Third-party notices
 
-CellLabel is built on the work below. Each item keeps its own licence; the
+CellLabel is built on the work below. Each item keeps its own licence. The
 CellLabel licence in `LICENSE` does not override any of them.
 
 ## TrueTH model weights — GPL-3.0
@@ -12,8 +12,9 @@ License version 3.
 This file is **not** covered by CellLabel's licence. You may use, copy,
 modify and redistribute it under the GPL, and CellLabel's licence adds no
 conditions to those rights. The full GPL text ships beside it as
-`models/trueth/LICENSE`. The corresponding source — the original weights and
-the script that converted them — is identified in `models/trueth/README.md`.
+`models/trueth/LICENSE`. The original weights and the script that converted
+them are listed in `models/trueth/README.md`. The GPL calls these the
+corresponding source.
 
 > Chen J, Meng Q, Zhang Y, et al. TrueTH: A user-friendly deep learning
 > approach for robust dopaminergic neuron detection. *Neuroscience Letters*
@@ -21,9 +22,9 @@ the script that converted them — is identified in `models/trueth/README.md`.
 
 ## Cellpose — BSD-3-Clause
 
-`src/detect/ml/cellpose.ts` is a line-by-line port of the inference pipeline
-of Cellpose 3.1.1 (resizing, tiling, flow following, mask construction and
-clean-up), from <https://github.com/MouseLand/cellpose>.
+CellLabel includes a line-by-line translation of the Cellpose 3.1.1 code that
+runs a model on an image. This covers resizing, tiling, flow following, mask
+construction and clean-up. Cellpose is at <https://github.com/MouseLand/cellpose>.
 
 Copyright (c) 2020 Howard Hughes Medical Institute
 
@@ -99,6 +100,6 @@ component's copyright line:
 ## File formats
 
 CellLabel reads Olympus/Evident cellSens `.vsi` and `.ets` files with its own
-reader (`server/ets.ts`), written from the layout of the files themselves. It
-contains no Olympus or Evident code, and is not endorsed by either. cellSens,
+reader. It was written by studying the files. It contains no Olympus or
+Evident code. Neither company endorses it. cellSens,
 Olympus and Evident are trademarks of their respective owners.

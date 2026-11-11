@@ -6,14 +6,14 @@ message: >-
 type: software
 abstract: >-
   A macOS, Windows and Linux application for counting cells in Olympus and
-  Evident cellSens slide scans. It opens .vsi and .ets pyramids directly,
-  without conversion, and supports both manual click-counting and a
-  node-based detection pipeline whose output a person reviews before it is
-  committed. Counts, outlines and per-point coordinates export as CSV.
+  Evident cellSens slide scans. It opens .vsi and .ets files directly. It
+  supports counting by clicking and automatic detection. You review each
+  detection before it is saved. Counts, outlines and point coordinates
+  export as CSV.
 authors:
   - family-names: Buckwalter-Chiang
     given-names: Max
-version: 1.2.1
+version: 1.2.2
 date-released: '2026-11-11'
 url: 'https://celllabel.com'
 repository-artifact: 'https://github.com/mbc210/celllabel-releases'
