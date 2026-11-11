@@ -62,9 +62,10 @@ The JavaScript packages the app ships also keep their own licence files
 beside them, inside the app.
 
 Electron includes Chromium and the libraries Chromium uses. Their licences
-ship in the app as `LICENSE.electron.txt` and `LICENSES.chromium.html`, in
-the same folder as this file: `CellLabel.app/Contents/Resources` on a Mac,
-and the `resources` folder beside `CellLabel.exe` or the Linux binary.
+ship with the app as `LICENSE.electron.txt` and `LICENSES.chromium.html`. On
+a Mac they are in `CellLabel.app/Contents/Resources`, beside this file. On
+Windows and Linux they are in the folder CellLabel is installed in, one level
+above this file.
 
 | Component | Version | Copyright |
 | --- | --- | --- |
