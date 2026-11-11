@@ -1,0 +1,62 @@
+CellLabel
+
+Copyright (c) 2026 Max Buckwalter-Chiang. All rights reserved.
+
+This licence covers the CellLabel application. It does not cover the TrueTH
+model file, which has its own licence. See section 4.
+
+
+1. Free for research
+
+You may install and use CellLabel free of charge for academic research,
+teaching and private study. Research funded by a government body, a
+university or a non-profit foundation counts as academic research. You may
+install it on as many machines as you need and pass copies to colleagues at
+your institution.
+
+You may publish results produced with CellLabel without restriction, and
+without asking. Please cite it (see CITATION.cff).
+
+
+2. Commercial use needs a separate licence
+
+Using CellLabel in or for a business — including contract or service work
+done for a fee, and research carried out by or for a commercial company —
+needs a separate licence. To ask for one, open an issue at
+https://github.com/mbc210/celllabel-releases/issues
+
+Selling, renting or sublicensing CellLabel needs written permission, as does
+taking it apart in order to build a competing product.
+
+
+3. Your scans and your counts are yours
+
+CellLabel reads your images and writes your counts, on your own machine.
+Nothing in this licence gives anyone a claim over either, and the program
+sends neither anywhere.
+
+
+4. The TrueTH model file is not covered by this licence
+
+CellLabel ships with models/trueth/trueth.onnx, the TrueTH network converted
+to ONNX. That file comes from the TrueTH project and is licensed under the
+GNU General Public License, version 3.
+
+Sections 1 and 2 above do not apply to it. You may use, copy, modify and
+redistribute that file under the terms of the GPL, and nothing in this
+licence restricts or adds conditions to those terms. The full GPL text ships
+beside the file as models/trueth/LICENSE. The corresponding source, as the
+GPL means it, is identified in models/trueth/README.md: the original TrueTH
+weights, and the script that converted them.
+
+Removing that one file leaves the rest of CellLabel working, minus the
+TrueTH option in Detect.
+
+
+5. No warranty
+
+CellLabel is provided as is, with no warranty of any kind, express or
+implied. It is a research tool, not a medical device, and must not be used
+to inform diagnosis or treatment. Counts it produces are yours to check.
+To the extent the law allows, the author is not liable for any claim,
+damage or loss arising from its use.

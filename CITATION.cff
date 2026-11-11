@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+title: CellLabel
+message: >-
+  If you use CellLabel in work you publish, please cite it using the
+  metadata in this file.
+type: software
+abstract: >-
+  A macOS, Windows and Linux application for counting cells in Olympus and
+  Evident cellSens slide scans. It opens .vsi and .ets pyramids directly,
+  without conversion, and supports both manual click-counting and a
+  node-based detection pipeline whose output a person reviews before it is
+  committed. Counts, outlines and per-point coordinates export as CSV.
+authors:
+  - family-names: Buckwalter-Chiang
+    given-names: Max
+version: 1.2.1
+date-released: '2026-11-11'
+url: 'https://celllabel.com'
+repository-artifact: 'https://github.com/mbc210/celllabel-releases'
+license-url: >-
+  https://github.com/mbc210/celllabel-releases/blob/main/LICENSE
+keywords:
+  - cell counting
+  - histology
+  - fluorescence microscopy
+  - slide scanning
+  - cellSens
+  - stereology
+  - image analysis
+  - neuroanatomy
+# Add the Zenodo DOI here once the deposit exists, as:
+# doi: 10.5281/zenodo.XXXXXXX
+references:
+  - type: article
+    title: >-
+      TrueTH: A user-friendly deep learning approach for robust dopaminergic
+      neuron detection
+    authors:
+      - family-names: Chen
+        given-names: J.
+      - family-names: Meng
+        given-names: Q.
+      - family-names: Zhang
+        given-names: Y.
+    journal: Neuroscience Letters
+    year: 2024
+    doi: 10.1016/j.neulet.2024.137871
+    notes: >-
+      The optional TrueTH detection model bundled with CellLabel. Cite this
+      as well if you used the TrueTH node.
+  - type: article
+    title: >-
+      Cellpose: a generalist algorithm for cellular segmentation
+    authors:
+      - family-names: Stringer
+        given-names: Carsen
+      - family-names: Wang
+        given-names: Tim
+      - family-names: Michaelos
+        given-names: Michalis
+      - family-names: Pachitariu
+        given-names: Marius
+    journal: Nature Methods
+    volume: 18
+    start: 100
+    end: 106
+    year: 2021
+    doi: 10.1038/s41592-020-01018-x
+    notes: >-
+      CellLabel ports the Cellpose inference pipeline. Cite this as well if
+      you used any model-based detection node.
